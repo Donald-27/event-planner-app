@@ -4,7 +4,7 @@ function RSVPButton() {
   const [rsvp, setRsvp] = useState(false);
 
   return (
-    <button>
+    <button onClick={() => setRsvp(!rsvp)}>
       RSVP
     </button>
   );
