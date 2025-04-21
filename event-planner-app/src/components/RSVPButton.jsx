@@ -5,7 +5,7 @@ function RSVPButton() {
 
   return (
     <button onClick={() => setRsvp(!rsvp)}>
-      RSVP
+      {rsvp ? "Cancel RSVP" : "RSVP"}
     </button>
   );
 }
