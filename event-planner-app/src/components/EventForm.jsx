@@ -1,12 +1,21 @@
 import React from 'react';
+import EventTitle from './EventTitle';
+import EventDate from './EventDate';
+import EventTime from './EventTime';
+import EventLocation from './EventLocation';
+import EventDescription from './EventDescription';
 
-function EventDescription() {
+function EventForm() {
   return (
-    <label>
-      Description:
-      <textarea name="description"></textarea>
-    </label>
+    <form>
+      <EventTitle />
+      <EventDate />
+      <EventTime />
+      <EventLocation />
+      <EventDescription />
+      <button type="submit">Create Event</button>
+    </form>
   );
 }
 
-export default EventDescription;
+export default EventForm;
