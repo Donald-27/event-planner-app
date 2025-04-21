@@ -1,12 +1,12 @@
 import React from 'react';
 
-function EventDate() {
+function EventTime() {
   return (
     <label>
-      Date:
-      <input type="date" name="date" />
+      Time:
+      <input type="time" name="time" />
     </label>
   );
 }
 
-export default EventDate;
+export default EventTime;
