@@ -1,12 +1,12 @@
 import React from 'react';
 
-function EventLocation() {
+function EventDescription() {
   return (
     <label>
-      Location:
-      <input type="text" name="location" />
+      Description:
+      <textarea name="description"></textarea>
     </label>
   );
 }
 
-export default EventLocation;
+export default EventDescription;
