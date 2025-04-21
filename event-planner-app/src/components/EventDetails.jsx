@@ -4,6 +4,7 @@ function EventDetails({ event }) {
   return (
     <div>
       <h2>{event.title}</h2>
+      <p>{event.date} at {event.time}</p>
     </div>
   );
 }
