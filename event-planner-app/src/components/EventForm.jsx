@@ -1,12 +1,12 @@
 import React from 'react';
 
-function EventTime() {
+function EventLocation() {
   return (
     <label>
-      Time:
-      <input type="time" name="time" />
+      Location:
+      <input type="text" name="location" />
     </label>
   );
 }
 
-export default EventTime;
+export default EventLocation;
