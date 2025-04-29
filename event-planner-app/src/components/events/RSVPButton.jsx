@@ -18,7 +18,7 @@ export default function RSVPButton({ eventId }) {
       className={`rsvp-button ${isGoing ? 'going' : ''}`}
       onClick={handleRSVP}
     >
-      {isGoing ? ' Going!' : '✋ RSVP'}
+      {isGoing ? ' Going!' : ' RSVP'}
     </button>
   );
 }

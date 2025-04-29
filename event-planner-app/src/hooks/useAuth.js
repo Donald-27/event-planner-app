@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useUser } from '../context/UserContext';
 
-export const useAuth = () => {
+export const useAuth = (e) => {
   const { user, login, logout } = useUser();
   const [isLoading, setIsLoading] = useState(true);
 
