@@ -3,6 +3,7 @@ import { ThemeProvider } from './context/ThemeContext';
 import AppRoutes from './routes';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
+import Login from './components/auth/Login';
 import './styles/global.css';
 
 export default function App() {
@@ -13,7 +14,7 @@ export default function App() {
       <div className="app">
         <Header />
         <main>
-          {user ? <AppRoutes /> : <div className="auth-prompt">Please log in to view events</div>}
+          {user ? <AppRoutes /> : <Login />}
         </main>
         <Footer />
       </div>
